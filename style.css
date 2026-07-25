@@ -1,0 +1,34 @@
+html::before {
+  content: 'CodePen ♥ The Web';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  font-family: monospace;
+  opacity: 0.6;
+  background: rebeccapurple;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+/*Configurando o fundo e a letra do site inteiro*/
+body {
+  font-family: sans-serif; /*Letras limpas, mais fáceis de ler na tela*/
+
+  background-color: #FFFFFF; /*Fundo totalmente branco*/
+
+  color: #121212; /*Texto quase preto (dá o contraste máximo!)*/
+
+  font-size: 18px; /*Letra um pouco maior que o padrão para ajudar quem tem baixa visão*/
+
+  line-height: 1.6; /*Dá um espaço saudável entre as linhas para o texto não embolar*/
+}
+
+/*Destacamos o título principal*/
+h1 {
+
+  color: #0056B3; /* Um azul escuro e forte. Daltônicos enxergam muito bem!*/
+  
+}
